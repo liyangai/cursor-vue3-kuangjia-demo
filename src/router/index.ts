@@ -18,6 +18,12 @@ const routes: RouteRecordRaw[] = [
         name: 'Goods',
         component: () => import('@/views/goods/index.vue'),
         meta: { title: '商品管理', icon: 'Goods' }
+      },
+      {
+        path: '/test-input',
+        name: 'TestInput',
+        component: () => import('@/views/test-input/index.vue'),
+        meta: { title: 'MyInput测试', icon: 'Edit' }
       }
     ]
   }
